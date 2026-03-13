@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contato</title>
+<h1>Contato</h1>
+</head>
+<body>
+ 
+  <form action="Sucesso.html">
+
+    <label for="Nome">Nome</label><br>
+    <input type="text" name="Nome" size="100"><br>
+    <label for="Email">Email</label><br>
+    <input type="email" name="Email" size="100"><br>
+    <label for="Assunto">Assunto</label><br>
+    <input type="text" name="Assunto" size="100"><br>
+    <label for="Mensagem">Mensagem</label><br>
+    <textarea name="Mensagem" rows="5" cols="72"></textarea><br>
+    <label for="Telefone">Telefone</label><br>
+    <input type="tel" name="Telefone" pattern="[0-9]*" inputmode="numeric"><br>
+    <label for="Data">Data</label><br>
+    <input type="date" name="Data"><br>
+    <label for="Motivo do Contato">Motivo do contato</label><br>
+    <select name="Problema">Problema
+    <option value="" disabled selected hidden>Selecione o Motivo</option>
+    <option>Orçamento</option>
+    <option>Erro de dados</option>
+    <option>Duvidas</option>
+    </select><br>
+    <br>
+    <button type="reset">Limpar Formulário</button><br>
+    <br>
+    <div style="justify-content: center; display: flex;">
+    <button type="submit" >Enviar Formulario</button>
+    </div>
+  </form>  
+</body>
+</html>
